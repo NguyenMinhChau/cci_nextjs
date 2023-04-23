@@ -1,0 +1,68 @@
+.container {
+	padding: 50px 20px;
+}
+
+.application_header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.header_sub {
+	line-height: 1.7;
+	text-align: center;
+}
+.application_KYC_container {
+	--cols: 2;
+	--spacing: 8px;
+	flex-wrap: wrap;
+	display: flex;
+	margin-top: 30px;
+}
+.KYC_item {
+	/* width: calc((100% / var(--cols)) - (var(--spacing) * 2)); */
+	margin: var(--spacing);
+}
+.application_KYC_left_container {
+	flex: 1;
+}
+.application_KYC_right_container {
+	flex: 2;
+}
+.logo_company {
+	width: 133px;
+	height: 60px;
+	object-fit: contain;
+}
+.KYC_left_title {
+	margin: 12px 0;
+	color: var(--text-color);
+	text-transform: uppercase;
+}
+.divider {
+	width: 50%;
+	height: 2px;
+	background-color: #ccc;
+}
+.step_KYC_container {
+	margin-top: 20px;
+}
+.step_KYC_container ol {
+	list-style: inside;
+	list-style-type: decimal;
+}
+.step_KYC_container ol li {
+	line-height: 1.7;
+}
+.KYC_end_text {
+	margin: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+.KYC_container {
+	margin-top: 50px;
+}
+
+/* MOBILE */
+@media (max-width: 46.25em) {
+}

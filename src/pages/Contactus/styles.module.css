@@ -1,0 +1,29 @@
+.contact_info_container {
+	--cols: 2;
+	--spacing: 8px;
+	padding: 30px 15px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+.contact_info_item {
+	width: calc((100% / var(--cols)) - (var(--spacing) * 2));
+	margin: var(--spacing);
+}
+.title {
+	font-weight: 450;
+	color: var(--text-color);
+	text-transform: uppercase;
+}
+.sub_desc {
+	line-height: 1.7;
+}
+.btn {
+	color: var(--white-color);
+}
+/* MOBILE */
+@media (max-width: 46.25em) {
+	.contact_info_container {
+		--cols: 1;
+	}
+}
