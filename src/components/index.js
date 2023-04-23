@@ -4,6 +4,7 @@ export { default as InputCp } from './Input/';
 export { default as TextareaCP } from './Textarea/';
 export { default as SelectOptionCP } from './SelectOption/';
 export { default as ButtonCP } from './Button/';
+export { default as ScrollToTop } from './ScrollToTop/';
 export { default as PersonalDetail } from './Application/PersonalDetail/';
 export { default as Financial } from './Application/Financial/';
 export { default as KYCPolicy } from './Application/KYCPolicy/';

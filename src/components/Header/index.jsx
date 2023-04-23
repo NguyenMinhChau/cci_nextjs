@@ -81,7 +81,7 @@ function Header() {
 						}
 						onClick={handleToggleMenu}
 					>
-						Aplication
+						Application
 					</NavLink>
 					<NavLink
 						to={routers.contactus}
