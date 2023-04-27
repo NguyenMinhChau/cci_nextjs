@@ -15,7 +15,7 @@
 	object-fit: cover;
 }
 .content_home {
-	padding: 30px 50px;
+	padding: 30px 250px;
 	color: var(--primary-color);
 }
 .title {
@@ -26,6 +26,7 @@
 .sub_title {
 	margin-bottom: 20px;
 	line-height: 1.7;
+	text-align: justify;
 }
 
 .baner_home_container {

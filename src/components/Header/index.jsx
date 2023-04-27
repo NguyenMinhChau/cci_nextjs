@@ -4,7 +4,7 @@ import className from 'classnames/bind';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import styles from './styles.module.css';
 import { InputCp } from '../';
-import LogoCompany from '../../assets/images/logo/logo_cci.png';
+import LogoCompany from '../../assets/images/logo/logo_cci_trans.png';
 import routers from '../../routers/router';
 
 const cx = className.bind(styles);
@@ -70,7 +70,7 @@ function Header() {
 						}
 						onClick={handleToggleMenu}
 					>
-						CCI
+						AIKING
 					</NavLink>
 					<NavLink
 						to={routers.application}

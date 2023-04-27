@@ -2,7 +2,7 @@ import React from 'react';
 import className from 'classnames/bind';
 import { Link } from 'react-router-dom';
 import styles from './styles.module.css';
-import LogoImage from '../../assets/images/logo/logo_cci.png';
+import LogoImage from '../../assets/images/logo/logo_cci_trans.png';
 
 const cx = className.bind(styles);
 
@@ -40,20 +40,31 @@ function Footer() {
 				<div className={`${cx('title')}`}>Contact Us</div>
 				<div className={`${cx('divider')}`}></div>
 				<div style={{ marginBottom: '20px' }}>
-					<p className={`${cx('desc_title')}`}>
-						CCI WORLDWIDE LIMITED.
+					<p className={`${cx('desc_title')}`}>AIKING INVESTMENT.</p>
+					<p className={`${cx('desc_child')}`}>
+						{' '}
+						Block A, Tòa nhà Rivergate, 151-155 Bến Vân Đồn, Phường
+						6, Quận 4, TP.HCM
+					</p>
+					{/* <p className={`${cx('desc_child')}`}>CR Number : 3223863</p> */}
+					<p className={`${cx('desc_child')}`}>
+						Phone: <a href="tel:0345335422">0345 335 422</a>
 					</p>
 					<p className={`${cx('desc_child')}`}>
-						Unit 2403, Tung Wai Commercial Building, 109-111
-						Gloucester Rd, Wan Chai, HONG KONG
-					</p>
-					<p className={`${cx('desc_child')}`}>CR Number : 3223863</p>
-					<p className={`${cx('desc_child')}`}>Phone: +85234669588</p>
-					<p className={`${cx('desc_child')}`}>
-						Email: Cciworldwide2023@gmail.com
+						Email:{' '}
+						<a href="mailto:aikinginvestment@gmail.com">
+							aikinginvestment@gmail.com
+						</a>
 					</p>
 					<p className={`${cx('desc_child')}`}>
-						Website: https://crystal-investment.com
+						Website:{' '}
+						<a
+							href="https://fiam.vn"
+							target="_blank"
+							rel="noreferrer"
+						>
+							https://fiam.vn
+						</a>
 					</p>
 				</div>
 				<div>

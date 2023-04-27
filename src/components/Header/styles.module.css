@@ -12,7 +12,9 @@
 	top: 0;
 	animation: fadeIn 0.5s linear;
 	z-index: 99999999;
-	background-color: #3366cca3;
+	/* background-color: #3366cca3; */
+	background-color: var(--primary-color);
+	border-bottom: 1px solid var(--white-color);
 }
 @keyframes fadeIn {
 	from {
@@ -30,8 +32,9 @@
 }
 .image {
 	object-fit: contain;
-	width: 80px;
+	width: 100px;
 	height: 80px;
+	filter: contrast(200%);
 }
 .nav_container ul {
 	display: flex;
