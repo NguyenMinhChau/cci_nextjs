@@ -18,6 +18,9 @@
 .sub_desc {
 	line-height: 1.7;
 }
+.sub_desc a {
+	color: var(--primary-color);
+}
 .btn {
 	color: var(--white-color);
 }
