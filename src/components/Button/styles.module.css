@@ -19,6 +19,7 @@
 .button.disabled {
 	pointer-events: none;
 	user-select: none;
+	-webkit-user-select: none;
 	cursor: default !important;
 	opacity: 0.5 !important;
 }

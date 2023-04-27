@@ -179,12 +179,12 @@
 }
 .btn_phone {
 	margin-bottom: 30px;
-	background-color: #208aee;
+	background-color: var(--primary-color-op9);
 	color: var(--white-color);
 }
 .btn_phone:hover {
-	background-color: #1a7be3;
-	border-color: #1a7be3;
+	background-color: var(--primary-color);
+	border-color: var(--primary-color);
 	color: var(--white-color);
 }
 .btn_customer {

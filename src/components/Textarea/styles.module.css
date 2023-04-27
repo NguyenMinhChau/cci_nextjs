@@ -10,3 +10,6 @@
 	resize: vertical;
 	font-family: Arial, Helvetica, sans-serif;
 }
+.textarea:focus {
+	border-color: var(--primary-color);
+}

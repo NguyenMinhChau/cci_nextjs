@@ -12,7 +12,7 @@
 	top: 0;
 	animation: fadeIn 0.5s linear;
 	z-index: 99999999;
-	background-color: rgba(0, 17, 107, 0.8);
+	background-color: #3366cca3;
 }
 @keyframes fadeIn {
 	from {
@@ -77,6 +77,10 @@
 .search_icon:hover {
 	cursor: pointer;
 	border: 1px solid var(--primary-color);
+}
+.input_border {
+	border-radius: 5px;
+	overflow: hidden;
 }
 /* MOBILE */
 @media (max-width: 46.25em) {

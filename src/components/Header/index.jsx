@@ -95,7 +95,10 @@ function Header() {
 						Contact us
 					</NavLink>
 					<div className={`${cx('search_container')}`}>
-						<InputCp placeholder="Search" />
+						<InputCp
+							placeholder="Search"
+							classInput={`${cx('input_border')}`}
+						/>
 						<div
 							className={`${cx('search_icon')}`}
 							onClick={handleSearch}
