@@ -78,13 +78,13 @@ function SearchPage() {
 					lắng nghe.
 				</p>
 				<ButtonCP
-					to="tel:0972939830"
+					to="tel:0345335422"
 					className={`${cx('btn', 'btn_phone')}`}
 				>
-					0972.939.830
+					0345 335 422
 				</ButtonCP>
 				<ButtonCP
-					to="tel:0972939830"
+					to="tel:0345335422"
 					className={`${cx('btn', 'btn_customer')}`}
 				>
 					Yêu cầu tư vấn

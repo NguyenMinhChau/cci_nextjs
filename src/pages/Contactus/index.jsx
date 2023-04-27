@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import className from 'classnames/bind';
-import { Link } from 'react-router-dom';
 import { ButtonCP, InputCp, TextareaCP } from '../../components/';
 import styles from './styles.module.css';
 
