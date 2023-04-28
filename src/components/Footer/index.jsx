@@ -43,8 +43,8 @@ function Footer() {
 					<p className={`${cx('desc_title')}`}>AIKING INVESTMENT.</p>
 					<p className={`${cx('desc_child')}`}>
 						{' '}
-						Block A, Tòa nhà Rivergate, 151-155 Bến Vân Đồn, Phường
-						6, Quận 4, TP.HCM
+						Block A, Rivergate Building, 151-155 Ben Van Don, Ward
+						6, District 4, Ho Chi Minh City, Viet Nam
 					</p>
 					{/* <p className={`${cx('desc_child')}`}>CR Number : 3223863</p> */}
 					<p className={`${cx('desc_child')}`}>

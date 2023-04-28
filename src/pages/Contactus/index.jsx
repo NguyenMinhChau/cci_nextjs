@@ -35,8 +35,9 @@ function ContactUsPage() {
 						className={`${cx('sub_desc')}`}
 						style={{ margin: '15px 0' }}
 					>
-						<b>Head Office:</b> Block A, Tòa nhà Rivergate, 151-155
-						Bến Vân Đồn, Phường 6, Quận 4, TP.HCM
+						<b>Head Office:</b> Block A, Rivergate Building, 151-155
+						Ben Van Don, Ward 6, District 4, Ho Chi Minh City, Viet
+						Nam
 					</p>
 					<p
 						className={`${cx('sub_desc')}`}

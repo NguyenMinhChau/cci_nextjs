@@ -56,7 +56,7 @@ function SearchPage() {
 					/>
 					<div>
 						<p className={`${cx('product_item_sub')}`}>
-							Điện mặt trời dân dụng SolarRootstop
+							Residential solar power SolarRootstop
 						</p>
 						<p className={`${cx('product_item_desc')}`}>
 							On sait depuis longtemps que travailler avec du
@@ -71,11 +71,10 @@ function SearchPage() {
 			<div className={`${cx('divider')}`}></div>
 			<div className={`${cx('search_footer')}`}>
 				<h3 className={`${cx('footer_search_title')}`}>
-					Chia sẻ nhu cầu của bạn
+					Share your needs
 				</h3>
 				<p className={`${cx('footer_sub')}`}>
-					Hãy liên hệ với chúng tôi, mọi mong muốn của bạn đều được
-					lắng nghe.
+					Please contact us, all your wishes are heard.
 				</p>
 				<ButtonCP
 					to="tel:0345335422"
@@ -87,7 +86,7 @@ function SearchPage() {
 					to="tel:0345335422"
 					className={`${cx('btn', 'btn_customer')}`}
 				>
-					Yêu cầu tư vấn
+					Ask for advice
 				</ButtonCP>
 			</div>
 			{modal && (
@@ -101,12 +100,12 @@ function SearchPage() {
 					<div className={`${cx('modal_content')}`}>
 						<div className={`${cx('products_list_container')}`}>
 							<h3 className={`${cx('products_list_title')}`}>
-								Danh mục sản phẩm
+								Product portfolio
 							</h3>
 							<ul className={`${cx('products_list')}`}>
 								<div className={`${cx('products_list_item')}`}>
 									<p className={`${cx('products_name')}`}>
-										Điện mặt trời dân dụng SolarRootstop
+										Residential solar power SolarRootstop
 									</p>
 									<p className={`${cx('products_quantity')}`}>
 										(7)
@@ -114,7 +113,8 @@ function SearchPage() {
 								</div>
 								<div className={`${cx('products_list_item')}`}>
 									<p className={`${cx('products_name')}`}>
-										Điện mặt trời nối lưới SolarFarm
+										Solar power connected to the grid
+										SolarFarm
 									</p>
 									<p className={`${cx('products_quantity')}`}>
 										(8)
@@ -129,7 +129,7 @@ function SearchPage() {
 									'products_best_seller_title',
 								)}`}
 							>
-								Sản phẩm bán chạy
+								Selling products
 							</h3>
 							<ul
 								className={`${cx('products_best_seller_list')}`}
